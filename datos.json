@@ -1,0 +1,89 @@
+{
+  "articulos": [
+            {
+              "categoria":"noticias", 
+              "titulo": "Google lanza Bard, competidor de ChatGPT, en la UE y Brasil",
+              "autor":"Universal",
+              "contenido":"Bard era una herramienta trilingüe y a partir de ahora podrá expresarse en unas 40 lenguas, como el árabe, el alemán, el chino, el español, el francés y el hindi. Google anunció este jueves el lanzamiento de Bard, competidor de ChatGPT en Inteligencia Artificial (AI), en medio centenar de nuevos países, entre ellos los de la Unión Europea (UE) y Brasil, evitados hasta ahora por motivos regulatorios, ya está disponible en la mayoría de los países del mundo y en los idiomas más hablados, afirmó en una entrada de blog el gigante estadounidense, que en febrero presentó su propia herramienta de Inteligencia Artificial (IA) en respuesta a ChatGPT, el software estrella de OpenAI financiado principalmente por Microsoft.",
+              "imagen":"imagenes/Blog/Noticias/Noticia1/GoogleIA.jpg"
+            },
+            {
+              "categoria":"noticias", 
+              "titulo": "Tu equipo Apple, en riesgo por vulnerabilidad: recomiendan actualizar de inmediato los dispositivos",
+              "autor":"Reforma",
+              "contenido":"Empresas de ciberseguridad señalaron que hay peligro crítico para ciertos equipos por lo que es prioritario actualizarlos ha informado de un aviso de seguridad en Apple por una vulnerabilidad que afecta a los productos con sistemas operativos iOS, iPadOS y macOS, y ha recomendado a los usuarios que actualicen sus equipos. El aviso de ciberseguridad está publicado con fecha de hoy en la web del cual clasifica con un nivel de peligrosidad crítico. Apple ya ha lanzado una actualización de sus sistemas operativos y también ha aconsejado la puesta al día de los dispositivos afectados.",
+              "imagen":"imagenes/Blog/Noticias/Noticia2/IPHONE.jpg"
+            },
+            {
+              "categoria":"noticias", 
+              "titulo": "Abren investigación contra OpenAI por poner en riesgo datos personales de usuarios",
+              "autor":"Universal",
+              "contenido":"La Comisión Federal de Comercio de EU abrió una investigación sobre OpenAI, el fabricante de ChatGPT, por acusaciones de que ha infringido las leyes de protección del consumidor al poner en riesgo la reputación y los datos personales, según una solicitud de información enviada por la FTC. a la compañia. La medida marca la amenaza regulatoria más fuerte para la startup respaldada por Microsoft que inició el frenesí de la inteligencia artificial generativa, cautivando a los consumidores y las empresas al tiempo que genera preocupaciones sobre sus riesgos potenciales.",
+              "imagen":"imagenes/Blog/Noticias/Noticia3/CHATGPT.jpg"
+            }, 
+            {
+              "categoria":"noticias", 
+              "titulo": "EU prohíbe a sus empresas invertir en IA en China",
+              "autor":"Milenio",
+              "contenido":"Estados Unidos dispuso que sus empresas no podrán invertir libremente en el extranjero en tecnologías avanzadas, como la inteligencia artificial (IA) y la computación cuántica, si implican a países problemáticos y citó a China, anunció el miércoles el Departamento del Tesoro en un comunicado. La decisión, derivada de una orden ejecutiva del presidente Joe Biden, busca defender la seguridad nacional estadounidense protegiendo tecnologías críticas para la próxima generación de innovaciones militares, dijo el Tesoro.",
+              "imagen":"imagenes/Blog/Noticias/Noticia4/IA.jpg"
+            }, 
+            {
+              "categoria":"empresas", 
+              "titulo": "Disney planea crear equipo de trabajo para explorar la IA y reducir costos",
+              "autor":"El Economista",
+              "contenido":"Walt Disney creó un grupo de trabajo para estudiar la inteligencia artificial (IA) y cómo puede aplicarse en el conglomerado del entretenimiento, a pesar de que los guionistas y actores de Hollywood luchan por limitar la explotación de la tecnología por parte de las empresas del sector. Creado a principios de este año, antes de la huelga de guionistas de Hollywood, el grupo pretende desarrollar aplicaciones de IA internas y asociarse con nuevas empresas, dijeron tres fuentes a Reuters. Como prueba de su interés, Disney tiene 11 ofertas de empleo para candidatos con experiencia en IA o aprendizaje automático.",
+              "imagen":"imagenes/Blog/Empresas/Empresa1/DISNEY.jpg"
+            }, 
+            {
+              "categoria":"empresas", 
+              "titulo": "LG Electronics invertirá 38,500 millones de dólares en tecnologías de movilidad, consumo y salud",
+              "autor":"El Economista",
+              "contenido":"LG Electronics alista una inversión de 50 billones de wones coreanos, unos 38,500 millones de dólares de este año, para desarrollar tecnologías que le permitan convertirse en una de las diez marcas de mayor relevancia en el negocio de componentes para vehículos autónomos y aplicaciones de valor agregado en electrónica de consumo y línea blanca.",
+              "imagen":"imagenes/Blog/Empresas/Empresa2/LG.jpg"
+            }, 
+            {
+              "categoria":"empresas", 
+              "titulo": "Slack espera que el hackeo a Uber “cambie su ruta” en ciberseguridad",
+              "autor":"El Economista",
+              "contenido":"San Francisco, Cal. “Para una plataforma crítica como Slack, espero que eso cambie nuestro mapa de ruta, espero que aprendamos de estas experiencias en el sentido de cómo podemos aislar los sistemas, cómo aplicamos el principio de privilegio de usuario”, dijo Bret Taylor, director ejecutivo de Salesforce, sobre el ciberataque que afectó los sistemas de Uber. Salesforce concluyó la adquisición del servicio de comunicación y trabajo colaborativo Slack en diciembre de 2020. La compañía realiza su conferencia anual Dreamforce 2022 en San Francisco, California.",
+              "imagen":"imagenes/Blog/Empresas/Empresa3/Uber.jpg"
+            }, 
+            {
+              "categoria":"empresas", 
+              "titulo": "SICT niega daño a sistemas internos o vulneración de datos personales por hackeo",
+              "autor":"El Economista",
+              "contenido":"Apenas dos días después de que la Secretaría de Infraestructura, Comunicaciones y Transportes suspendió plazos y términos para diversos trámites y licencias hasta el 31 de diciembre de 2022, a causa de un incidente cibernético en equipos cómputo, la dependencia rechazó que el software malicioso haya dañado sus sistemas o vulnerado los datos de la ciudadanía. La Secretaría de Infraestructura, Comunicaciones y Transportes (SICT) informa que el software malicioso no dañó los sistemas de la dependencia ni los datos de los ciudadanos se vieron vulnerados , aseguró la dependencia en un comunicado. La SICT difundió a través de su cuenta de Twitter que había “activado el Protocolo Nacional Homologado de Gestión de Incidentes Cibernéticos y Plan de Contingencia, en apego a la normatividad, a fin de contener posibles vulnerabilidades a la información y datos derivado de accesos ilícitos a equipos informáticos de la SICT",
+              "imagen":"imagenes/Blog/Empresas/Empresa4/SICT.jpg"
+            }, 
+            {
+              "categoria":"novedades", 
+              "titulo": "Apple presenta nuevas MacBook Pro y Mac Mini con sus chips M2",
+              "autor":"El Economista",
+              "contenido":"Apple Inc presentó el martes nuevos MacBooks equipados con los últimos chips M2 Pro y M2 Max de fabricación propia, en un anuncio sorpresa antes de su tradicional evento de lanzamiento. El Mac mini cuesta a partir de 599 dólares, más barato que el último iPhone de la serie 14, y estará disponible a partir del 24 de enero. Apple, sin embargo, no ha facilitado información sobre los precios de los portátiles.El rendimiento del nuevo MacBook Pro sería seis veces más rápido que el MacBook Pro basado en Intel, según Apple. La compañía celebra tradicionalmente cuatro eventos de lanzamiento al año, el primero de los cuales está previsto para marzo, cuando Apple presenta sus iMac y accesorios.",
+              "imagen":"imagenes/Blog/Novedades/Novedad1/Apple.jpg"
+            }, 
+            {
+              "categoria":"novedades", 
+              "titulo": "G-Shock: 40 años después de su nacimiento, el tradicional reloj de Casio ahora te mide las pulsaciones y el estado físico",
+              "autor":"La Nación",
+              "contenido":"El primer modelo G-Shock, el DW-5000C, fue lanzado en Japón en 1983 y después de mucho desarrollo, y gracias a varias capas de goma amortiguadora, acero y espuma en el interior que protegían sus componentes electrónicos, podría sobrevivir a una paliza, una inmersión, y solo necesitaba una batería nueva cada 10 años. Lo que me resulta curioso, pero también un poco lógico, es que, aprovechando el 40º aniversario del primer G-Shock Casio está lanzando un montón de variantes basadas en aquel modelo, pero el más interesante es un modelo que incluye la tecnología moderna de seguimiento del estado físico y un pulsómetro óptico, mejor conocido cómo DWH5600. Modelo que, por cierto, es muy similar a uno de los relojes que más he amado en mi vida, el DW5600 All Black. (De paso: Casio nunca fue especialista en ponerle buenos nombres a sus productos.)",
+              "imagen":"imagenes/Blog/Novedades/Novedad2/CASIO.jpg"
+            }, 
+            {
+              "categoria":"novedades", 
+              "titulo": "Xiaomi apuesta a ampliar su presencia en América latina con un ecosistema de productos inteligentes",
+              "autor":"La Nación",
+              "contenido":"En un evento en la Ciudad de México, Xiaomi presentó todo un abanico de productos para la vida moderna, que ya tiene en China y con el que aspira a ampliar su presencia en la región: aspiradoras robot, scooters, productos para mascotas, relojes y auriculares, que llegarán a la Argentina en los próximos meses. Y así como Samsung y Apple tienen una aplicación para centralizar la gestión de dispositivos electrónicos (sean informáticos o electrodomésticos), la compañía mostró lo nuevo de Xiaomi Home App, como también la posibilidad de vincularlos con el Asistente de Google y con Alexa.",
+              "imagen":"imagenes/Blog/Novedades/Novedad3/XAOMI.jpg"
+            }, 
+            {
+              "categoria":"novedades", 
+              "titulo": "¡Vuelve el Walkman! Sony presentó el NW-A306, un reproductor de audio portátil para melómanos",
+              "autor":"La Nación",
+              "contenido":"Sony ha presentado un walkman que está equipado con una pantalla de 3,6 pulgadas y permite reproducir contenidos de alta resolución en formato FLAC a 96 kHz durante 32 horas sin interrupciones y 26 horas de música con servicios de música en streaming. El reproductor portátil NW-A306 tiene un peso de 113 gramos, un marco de aleación de aluminio que proporciona rigidez para obtener una baja impedancia de un sonido nítido y estable, y dispone de controles físicos táctiles.",
+              "imagen":"imagenes/Blog/Novedades/Novedad4/SonyNovedad.jpg"
+            }
+            
+  ]
+}

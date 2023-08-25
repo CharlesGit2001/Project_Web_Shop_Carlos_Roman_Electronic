@@ -10,10 +10,23 @@ body {
   height: 100%;
 }
 
+
 /*Tipo de fuente*/
 /*
+font-family: 'Acme', sans-serif;
+font-family: 'Alegreya Sans', sans-serif;
+font-family: 'Belanosima', sans-serif;
 font-family: 'Heebo', sans-serif;
-font-family: 'Krub', sans-serif;*/
+font-family: 'Hind Madurai', sans-serif;
+font-family: 'Krub', sans-serif;
+font-family: 'Marcellus', serif;
+font-family: 'Orbitron', sans-serif;
+font-family: 'PT Mono', monospace;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Rowdies', cursive;
+font-family: 'Sen', sans-serif;
+font-family: 'Signika', sans-serif;
+font-family: 'Source Code Pro', monospace;*/
 
 /*Posible RGBA*/
 /*rgba(97, 89, 89, 0.64), rgba(10, 8, 8, 0.43)*/
@@ -44,10 +57,14 @@ font-family: 'Krub', sans-serif;*/
 /*Texto Busqueda*/
 .texto-busqueda {
   border-radius: 4px;
+
 }
 
 .Busqueda {
   margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*Boton de en medio de buscar*/
@@ -141,6 +158,8 @@ font-family: 'Source Code Pro', monospace;*/
   padding-top: 2px;
   padding-bottom: 2px;
 }
+/*ACABA PARTE DE ARRIBA*/
+
 
 .historia {
   text-transform: uppercase;
@@ -166,7 +185,7 @@ font-family: 'Source Code Pro', monospace;*/
 
 .aside-contenido-izquierdo {
 
-  height: 550px;
+  height: 510px;
   background-color: #747474;
   color: white;
   border: 2px solid #000;
@@ -222,7 +241,7 @@ font-family: 'Source Code Pro', monospace;*/
 
 .lahistoria .historia {
   background-color: #1F63D3;
-  color: black;
+
   margin: 0;
   padding: 25px;
   transform: skew(-10deg);
@@ -273,13 +292,20 @@ font-family: 'Source Code Pro', monospace;*/
   box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
 }
 
-.carousel-inner {
+.carrusel-completo {
   padding: 1em;
 }
+
+/* Da el tamaño del borde- en este caso en el carrusel*/
+/* Da el tamaño del borde- en este caso en el carrusel
+.carousel-inner {
+  padding: 1em;
+}*/
 
 .Carrusel {
   margin-top: -45px;
   margin-bottom: 15px;
+  margin-left: 50px;
 }
 
 .slider-container a {
@@ -304,20 +330,25 @@ font-family: 'Source Code Pro', monospace;*/
 .carousel-control-next-icon {
 
   background-color: #5a5e63;
-  width: 10px;
-  height: 10px;
+  width: 30px;
+  height: 30px;
   border-radius: 45%;
   top: 50%;
   transform: translateY(-20%);
+
 }
 
-.carousel-control-prev,
-.carousel-control-next {
-  margin-right: -69px;
-  /* Ajusta el valor según tu preferencia */
-  margin-left: -69px;
-  /* Ajusta el valor según tu preferencia */
+.carousel-control-prev-icon {
+  margin-right: 140px;
+
+  margin-top: 20px;
 }
+
+.carousel-control-next-icon {
+  margin-left: 24px;
+  margin-top: 20px;
+}
+
 
 @media screen and (min-width:568px) {
   .card-group {
@@ -325,9 +356,9 @@ font-family: 'Source Code Pro', monospace;*/
   }
 }
 
-.card {
+.carta {
   margin: 3.0em;
-  width: calc(100%/3);
+
 }
 
 .image-wrapper {
@@ -344,6 +375,7 @@ font-family: 'Source Code Pro', monospace;*/
     display: none;
   }
 }
+
 
 
 .image-wrapper img {
@@ -548,4 +580,411 @@ footer {
   color: white;
   margin-left: 1038px;
   text-align: justify;
+}
+
+/*2DA PAGINA TIENDA*/
+
+/* Optional: If you want to remove the extra padding on the left and right of the container, add this */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.navbar-brand {
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  margin-left: 2px;
+  margin-right: 5px;
+}
+
+.titulo2 a {
+  font-size: 27px;
+}
+
+.navbar .container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top: -8px;
+  margin-bottom: -8px;
+}
+
+.navbar {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.tienda {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-nav {
+  margin-top: 8px;
+  text-align: center;
+  margin-left: 68px;
+  font-weight: 490;
+  font-family: 'Sen', sans-serif;
+}
+
+.link1 {
+  margin-right: 38px;
+}
+
+.link1:hover {
+  text-decoration: underline;
+}
+
+.link2 {
+  margin-right: 38px;
+}
+
+.link2:hover {
+  text-decoration: underline;
+}
+
+.link3 {
+  margin-right: 38px;
+}
+
+.link3:hover {
+  text-decoration: underline;
+}
+
+.link4 {
+  margin-right: 38px;
+}
+
+.link4:hover {
+  text-decoration: underline;
+}
+
+
+.d-flex {
+  justify-content: end;
+}
+
+.nav-item a {
+  font-size: 21px;
+}
+
+/**/
+.custom-carousel {
+  overflow: hidden;
+  /* Ocultar cualquier contenido que se desborde */
+}
+
+
+.boton-buscar.btn-outline-primary {
+  background-color: #f0f0f0;
+  color: black;
+  text-transform: uppercase;
+  border: 2px solid black;
+  font-weight: bold;
+  /* Cambia el color del texto a negro (opcional) */
+}
+
+.texto-busqueda {
+  display: flex;
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+.boton-buscar {
+  margin-left: 8px;
+}
+
+
+/* Agregamos una clase para extender el textbox */
+.caja-texto.extender {
+  width: 380px;
+  /* Ancho aumentado del textbox */
+}
+
+/*Carrusel*/
+.carousel-control-next {
+  margin-right: 0px;
+  /* Ajusta el ancho del botón derecho según tus necesidades */
+}
+
+.carousel-control-prev {
+  margin-left: 0px;
+}
+
+/*Titulos de los Fondos*/
+.carousel-inner h5 {
+  font-family: 'Signika', sans-serif;
+  font-size: 25px;
+}
+
+.carousel-inner p {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 20px;
+}
+
+/*Pedazo de la tienda*/
+.card {
+  margin-left: -10px;
+  margin-top: 12px;
+}
+
+/*Reducir tanaaño abajo para el espacio*/
+.contenedor-principal {
+  margin-bottom: -22px;
+}
+
+.accordion {
+  margin-top: 12px;
+}
+
+.card-textoprecio {
+  text-align: center;
+}
+
+.card-body h5 {
+  font-size: 22px;
+}
+
+.card-body .descuento {
+  font-size: 19px;
+}
+
+.card-body span {
+  text-decoration: line-through;
+}
+
+.card-body .precio-real {
+  font-size: 23px;
+}
+
+
+.card-body a {
+  font-size: 20px;
+}
+
+/*Parte Footer*/
+/*Aqui empieza el footer*/
+
+
+.clase-footer .primera-colmuna-footer {
+  margin-right: 48px;
+  color: white;
+  font-family: 'Rowdies', cursive;
+  font-size: 26px;
+  background-color: #5C6874;
+  font-weight: 400;
+  padding-left: 10px;
+}
+.contenedor-footer{
+  margin-top: 50px;
+}
+
+.clase-footer .primera-colmuna-footer2 {
+  margin-right: 75px;
+  color: white;
+  font-family: 'Rowdies', cursive;
+  font-size: 26px;
+  background-color: #5C6874;
+  font-weight: 400;
+  padding-left: 10px;
+
+}
+
+.clase-footer .primera-colmuna {
+  color: white;
+  font-family: 'Rowdies', cursive;
+  font-size: 26px;
+  background-color: #5C6874;
+  font-weight: 400;
+  padding-left: 10px;
+  margin-right: 60px;
+}
+
+.clase-footer-suscribirse h5 {
+  color: white;
+  font-family: 'Rowdies', cursive;
+  font-size: 34px;
+}
+
+.clase-footer-suscribirse p {
+  color: white;
+  font-size: 18px;
+}
+
+.boton-buscar-footer.btn-outline-dark {
+  background-color: #f0f0f0;
+  color: black;
+  text-transform: uppercase;
+  border: 2px solid black;
+  font-weight: bold;
+  /* Cambia el color del texto a negro (opcional) */
+}
+
+.clase-footer .hora-atencion {
+  font-size: 20px;
+}
+
+.clase-footer .texto-lahora {
+  font-size: 17px;
+  margin-top: -14px;
+}
+
+.footer-titulos .titulo-importante:hover {
+  text-decoration: underline;
+}
+
+.footer-titulos {
+  margin-bottom: -5px;
+}
+
+.footer-descripcion-empresa .palabra-compania {
+  font-size: 19.5px;
+  text-align: end;
+  margin-right: 150px;
+}
+
+/*Logos Empresas*/
+
+.footer-descripcion-empresa .redes-sociales {
+  color: white;
+  font-family: 'Rowdies', cursive;
+  font-size: 29px;
+  background-color: #5C6874;
+  margin-right: 70px;
+  margin-left: 64px;
+  padding-left: 9px;
+  padding-right: 9px;
+}
+
+
+.footer-descripcion-empresa .logo-facebook {
+  font-size: 36px;
+}
+
+.footer-descripcion-empresa .logo-youtube {
+  font-size: 36px;
+}
+
+.footer-descripcion-empresa .logo-instagram {
+  font-size: 36px;
+}
+
+.footer-descripcion-empresa .logo-twitter {
+  font-size: 36px;
+}
+
+.footer-descripcion-empresa .logo-tiktok {
+  font-size: 36px;
+}
+
+/*Pagos*/
+.pagos-formas .PAGO {
+  color: white;
+  font-family: 'Rowdies', cursive;
+  font-size: 24px;
+  margin-top: 18px;
+}
+
+.pagos-lista {
+  margin-right: 312px;
+  margin-top: 18px;
+}
+
+/*Pagina Contacto*/
+/*Fondo del background*/
+.fondo-importante{
+  background-image: linear-gradient(40deg,#08090c,#1c1c22,#4c4c4d,#13298b,#4c4c4d,#13298b,#4c4c4d,#1c1c22,#08090c);
+  background-size: 200%;
+  animation: fanimado 10s infinite;
+}
+
+@keyframes fanimado {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+/*Pagina Conexion contacto (Enviar)*/
+.fondo-importante-respuesta{
+  background-image: linear-gradient(40deg,#08090c,#1c1c22,#4c4c4d,#13298b,#4c4c4d,#13298b,#4c4c4d,#1c1c22,#08090c);
+  background-size: 200%;
+  
+  animation: fanimado 10s infinite;
+}
+.primer-texto{
+margin-top: 70px;  
+}
+.segundo-texto{
+margin-top: 28px;
+}
+.caja_de_texto_respuesta{
+margin-left: 5px; 
+margin-top: 22px;
+margin-bottom: 80px;
+margin-right: 600px;
+}
+.caja_de_texto_respuesta p{
+font-size: 26px;
+}
+.caja_de_texto_respuesta span{
+font-weight: bold;
+}
+
+/*Continuacion de pagina tienda javascript*/
+.black-icon{
+  color: black;
+}
+.margin-right{
+  margin-right: 15px;
+}
+.margin-left{
+  margin-left: 15px;
+}
+
+/*Color cada producto*/
+.list-inline .colorbotones {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 10px; /* Ajustar el margen según tu preferencia */
+  border: 1.5px solid black;
+}
+
+/* Alinear los círculos horizontalmente */
+.list-inline {
+  display: flex;
+  justify-content: center;
+  padding: 0; /* Eliminar el relleno del elemento ul */
+}
+
+
+.text-success .texto-precio{
+  color: black;
+}
+
+.titulo-monitor2{
+  margin-top: 20px;
+}
+.texto-abajo{
+  margin-top: 40px;
+}
+
+.texto-centro{
+  text-align:center;
+  color: black;
+}
+
+/*BLOG*/
+.tienda-fondo{
+    background-image: linear-gradient(40deg,#08090c,#1c1c22,#4c4c4d,#13298b,#4c4c4d,#13298b,#4c4c4d,#1c1c22,#08090c);
+  background-size: 200%;
+  
+  animation: fanimado 10s infinite;
 }
